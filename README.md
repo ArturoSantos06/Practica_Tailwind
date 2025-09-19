@@ -1,12 +1,18 @@
-# React + Vite
+  # Actividad con React y Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web simple desarrollada con **React** y estilizada con Tailwind CSS. Su propósito es servir como un portafolio o una página de inicio para una inmobiliaria.
 
-Currently, two official plugins are available:
+## Dificultades encontradas durante el desarrollo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### 1. Configuración del entorno de desarrollo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Problema:** La integración de Visual Studio Code, React y Tailwind CSS fue un proceso que me consumió aproximadamente 3 horas. 
+
+- **Solución:** La clave fue seguir la documentación oficial de cada tecnología paso a paso. Ademas de ver y seguir tutoriales de personas experimentadas, en total tuve que ver 3 tutoriales hasta encontrar el indicado, que hacia cada paso con la documentación oficial.
+
+### 2. Enlace de componentes
+
+- **Problema:** Enlazar el componente NavBar.jsx con el componente principal App.jsx generó un error de resolución de ruta. 
+
+- **Solución:** Mi archivo Navbar.jsx estaba dentro de mi carpeta Components por alguna razón no la detectaba, la solución mós sencilla fue eliminar mi archivo Navbar.jsx y volverla a hacer, fue algo frustrante ya que la etiqueta no estaba mal, sigo sin entender el error pero la solución fue sencilla.
