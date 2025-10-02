@@ -4,6 +4,7 @@ import TituloActividad from './components/TituloActividad';
 import ListaEmpleados from './components/ListaEmpleados';
 import Contador from './components/Contador';
 import ToggleSeccion from './components/ToggleSeccion';
+import FormularioNombre from './components/FormularioNombre';
 
 const empleadosDemo = [
   { id: 1, nombre: "Juan Sandoval", cargo: "Analista", departamento: "Finanzas", correo: "juan.perez@inmobiliaria.com" },
@@ -21,6 +22,8 @@ function App() {
         <Contador /> 
         <TituloActividad texto="Toggle de Visibilidad" />
         <ToggleSeccion />
+        <TituloActividad texto="Input controlado y estado reflejado" />
+        <FormularioNombre />
       </div>
     </div>
   );
