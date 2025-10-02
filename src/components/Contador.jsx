@@ -4,7 +4,7 @@ function Contador() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex flex-col items-center p-6 bg-blue-200 shadow-xl rounded-4xl border border-gray-100 m-4">
+    <div className="flex flex-col items-center p-6 bg-blue-2 shadow-xl rounded-4xl border border-gray-100 m-4 w-full max-w-lg mx-auto">
       <p className="text-xl font-semibold text-gray-700 mb-4">
         Has hecho clic {count} veces
       </p>
